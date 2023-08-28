@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(10, 10, 62);
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li{
+                list-style: none;
+                margin: 0 23px;
+        }
+        nav ul li a{
+                text-decoration: none;
+                color: white;
+        }
+        nav ul li a:hover{
+                color: rgb(177, 177, 237);
+                font-size: 1.04rem;
+        }
+        .left{
+            font-size: 2.0rem;
+            color: white;        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+        .firstsection div{
+            width=34px;
+        }
+        .leftsection{
+            font-size: 3rem;
+        }
+        .rightsection{
+            width: 30%;
+        }
+        .purple{
+            color: blueviolet;
+        }
+        .project {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .project-image {
+            width: 30%;
+            display: flex;
+        }
+
+        .project-description {
+            width: 55%;
+            font-size: 1.2rem;
+        }
+        .amsn{
+            color: rgb(107, 226, 43);
+        }
+        .project1 {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .project1-image {
+            width: 30%;
+            display: flex;
+        }
+
+        .project1-description {
+            width: 55%;
+            font-size: 1.2rem;
+        }
+        .amsn{
+            color: rgb(107, 226, 43);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Sourabh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="\">Home</a></li>
+                    <li><a href="\">Abouts</a></li>
+                    <li><a href="\">Services</a></li>
+                    <li><a href="\">Projects</a></li>
+                    <li><a href="\">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii, My name is 
+                <div><span class="purple">
+                Sourabh 
+                </span>
+                 and I'm a Passionate</div>
+                <div>Web Developer</div>
+            </div>
+            <div class="rightsection">
+            <img src="PngItem_1127587.png" alt="Developer Image" width="80%">   
+                </div>
+        </section>
+        
+        </section>
+        <section class="project">
+            <div class="project-description">
+                <h2 class="amsn">Project: Daily Expense Tracker System</h2>
+                <br><hr><br>
+                <p>
+                    For one of my projects, I developed a web-based Daily Expense Tracker System
+                    using PHP and Java. This system allows users to keep track of their daily
+                    expenses and manage their budgets effectively. Users can add, edit, and
+                    categorize expenses, view spending trends, and generate reports.
+                </p>
+            </div>
+            <div class="project-image">
+                <img src="detspro-homepage.png" alt="Expense Tracker System" width="100%">
+            </div>
+        </section>
+        <section class="project1">
+            <div class="project1-description">
+                <h2 class="amsn">Project: Hostel Management System</h2>
+                <br><hr><br>
+                <p>
+                    The Hostel Management System was built using a combination of PHP, MySQL,
+                    and HTML/CSS for the front-end. It allows administrators to efficiently manage
+                    student records, assign rooms, track payments, and generate occupancy reports..
+                </p>
+            </div>
+            <div class="project-image">
+                <img src="hostel.jpeg" alt="Expense Tracker System" width="100%">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
